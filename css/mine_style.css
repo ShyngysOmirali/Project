@@ -1,0 +1,174 @@
+body{
+	background-color: white;
+}
+#head{
+	background-color: #000; 
+	height:50px;
+	background-size:150px;
+}
+.head1 li {
+	display: inline;
+	padding: 25px;
+	padding-bottom:13px; 
+	font-size: 25px;
+	width: 100px;
+	height: 100px;
+}
+.head1{
+	position: absolute;
+	padding-bottom: 20px;
+	float: left;
+	margin-left: 500px;
+	color:white;
+	padding-top: 8px;
+	font-family: Century Gothic;
+}
+.head1 li a{
+	text-decoration: none;
+	color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.head1 .menu{
+	margin-top: 10px;
+	position: absolute;
+	background: red;
+	color: white;
+	width: 100%;
+	height: 200px;
+	color: gray;
+	display: none;
+}
+#registration-menu{
+	margin-top: 10px;
+	height: 500px;
+	background: white;
+	border-style: groove;
+	text-align: center;
+}
+#login-menu{
+	margin-top: 10px;
+	height:350px;
+	background: white;
+	border-style: groove;
+	text-align: center;
+}
+#footer{
+
+	position: relative; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: black; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+#dropdown-menu{
+	margin-top: 7px;
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	background: white;
+	display: none;
+	margin-bottom: 40px;
+	box-shadow: 2px 2px 2px 2px black;
+	border-bottom-left-radius:  6px;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	opacity: 0.9;
+	text-align: center;
+}
+#dropdown-menu li a{
+	color: black;
+	font-size: 20px;
+}
+#dropdown-menu li{
+	padding: 0;
+}
+#head .head1 li:hover #dropdown-menu{
+	display: block;
+	margin-bottom: 40px;
+}
+
+
+.for-women{
+	margin-top: 8px;
+	position: absolute;
+	color: white;
+	margin-left: 50%;
+	font-family:  Century Gothic;
+}
+.for-women li  a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+#head-shoes{
+	height: 30px;
+}
+
+.shop{
+	background: white;
+	box-shadow: 1px 1px 3px 3px gray;
+	width: 70%;
+	height: 1000px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+#box{
+	width: 210px;
+	height: 260px;
+	box-shadow: 1px 1px 1px 1px gray;
+	margin-right: 52px;
+	margin-left: 52px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#box a{
+	color:black;
+}
+#box a:hover{
+	text-decoration: none;
+	color:blue;
+} 
+#pro-photo{
+	width: 100%;
+	height: 210px;
+}
+.profile{
+	height: 500px;
+	margin-top: 20px;
+	width:20%;
+	float: left;
+}
+.profile #profile1 li a{
+	text-decoration: none;
+	font-size: 18px;
+	color:black;
+	font-weight: bold;
+}
+.profile #profile1 li{
+	text-align: center;
+
+}
+#profile2{
+	height: 500px;
+	border:1px solid gray;
+	margin-top: 20px;
+}
+
+
+#back_images{
+	margin-top: -50px;
+
+}
